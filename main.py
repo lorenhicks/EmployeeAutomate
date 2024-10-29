@@ -6,3 +6,6 @@ class Employee():
 
   def say_id(self):
     print("My id is {}.".format(self.id))
+
+class Admin(Employee):
+  pass
