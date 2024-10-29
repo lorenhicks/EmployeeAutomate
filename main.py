@@ -9,8 +9,8 @@ class Employee():
 
 class Admin(Employee):
     def say_id(self):
-        print("I am an Admin.")
-
+        super().say_id()
+        print("I am an admin.")
 e1 = Employee()
 e2 = Employee()
 e3 = Admin()
