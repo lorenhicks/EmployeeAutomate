@@ -8,7 +8,8 @@ class Employee():
     print("My id is {}.".format(self.id))
 
 class Admin(Employee):
-  pass
+    def say_id(self):
+        print("I am an Admin.")
 
 e1 = Employee()
 e2 = Employee()
